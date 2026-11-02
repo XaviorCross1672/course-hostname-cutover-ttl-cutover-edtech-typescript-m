@@ -1,0 +1,7 @@
+{
+  "name": "course-hostname-cutover", "version": "1.0.0", "private": true,
+  "type": "module", "engines": {"node": ">=22.18"},
+  "scripts": {"start": "node src/course_cutover.ts", "test": "node --test src/teaching_window.test.ts", "typecheck": "tsc --noEmit"},
+  "dependencies": {"zod": "^3.24.2"},
+  "devDependencies": {"typescript": "^5.8.3", "@types/node": "^22.13.10"}
+}
